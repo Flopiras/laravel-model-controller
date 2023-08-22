@@ -14,10 +14,10 @@
                     <div class="card-body">
                         <h5 class="card-title">{{ $movie->title }}</h5>
                         <h6 class="card-subtitle mb-2 text-body-secondary">{{ $movie->original_title }}</h6>
-                        <p class="card-text"><strong>Nationality : </strong> {{ $movie->nationality }}</p>
-                        <p class="card-text"><strong>Date : </strong> {{ $movie->date }}</p>
-                        <p class="card-text"><strong>Vote : </strong> {{ $movie->vote }}</p>
-                        <a href="#" class="card-link">Movie link</a>
+                        <p class="card-text"><strong>Nazionalità : </strong> {{ $movie->nationality }}</p>
+                        <p class="card-text"><strong>Data di uscita : </strong> {{ $movie->date }}</p>
+                        <p class="card-text"><strong>Voto : </strong> {{ $movie->vote }}</p>
+                        <a href="#" class="card-link">Scopri di più</a>
                     </div>
               </div>
             </div>
