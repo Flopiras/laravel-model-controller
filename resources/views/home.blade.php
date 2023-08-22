@@ -10,10 +10,10 @@
             <div class="col">
 
                 {{-- cards --}}
-                <div class="card mb-4">
+                <div class="card shadow  mb-4">
                     <div class="card-body">
                         <h5 class="card-title">{{ $movie->title }}</h5>
-                        <h6 class="card-subtitle mb-2 text-body-secondary">{{ $movie->original_title }}</h6>
+                        <h6 class="card-subtitle mb-3 text-body-secondary">{{ $movie->original_title }}</h6>
                         <p class="card-text"><strong>Nazionalità : </strong> {{ $movie->nationality }}</p>
                         <p class="card-text"><strong>Data di uscita : </strong> {{ $movie->date }}</p>
                         <p class="card-text"><strong>Voto : </strong> {{ $movie->vote }}</p>
